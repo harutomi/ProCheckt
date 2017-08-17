@@ -1,3 +1,3 @@
   Rails.application.routes.draw do
-    resources :books, only: :index
+    get 'lists' => 'lists#index'
   end

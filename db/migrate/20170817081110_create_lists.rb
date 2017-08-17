@@ -4,7 +4,7 @@ class CreateLists < ActiveRecord::Migration
       t.string :title
       t.text :content
       t.integer :status
-      t.text :comment
+      t.text :commnent
       t.timestamps
     end
   end
